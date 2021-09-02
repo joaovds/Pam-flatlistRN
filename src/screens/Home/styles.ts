@@ -6,6 +6,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#121116",
     paddingTop: Constants.statusBarHeight,
+    paddingHorizontal: 16,
   },
 
   title: {
@@ -15,6 +16,10 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontWeight: "bold",
     color: "#D1D1D3",
+  },
+
+  courseList: {
+    paddingBottom: 16,
   },
 });
 
